@@ -22,6 +22,10 @@
   padding-block: 14px;
 }
 
+.dark-theme .nav__link {
+  border-color: hsl(0, 0%, 20%);
+}
+
 .nav__icon,
 .nav__name {
   color: var(--title-color);
@@ -85,6 +89,7 @@
     right: 30px;
     display: flex;
     align-items: center;
+    z-index: 100;
   }
 
   .nav__item {
