@@ -29,8 +29,10 @@ const PortfolioItem = ({ img, title, details }) => {
                                         <span className='item__icon'>{icon}</span>
                                         <div>
                                             <span className='item__title'>{title}</span>
-                                            <span className='item__details'>{desc}</span>
-
+                                            {desc.includes("www") ?
+                                                <a href={desc} target="_blank" className='item__details' rel="noopener noreferrer">{desc.split('https://')}</a> :
+                                                <span className='item__details'>{desc}</span>
+                                            }
                                         </div>
                                     </li>
                                 )
