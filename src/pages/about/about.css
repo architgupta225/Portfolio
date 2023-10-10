@@ -167,4 +167,9 @@
 .resume__description{
     font-size: var(--small-font-size);
     line-height: 1.6;
+    font-weight: var(--weight-400);
+}
+
+.bold-text strong{
+    font-weight: var(--weight-800);
 }

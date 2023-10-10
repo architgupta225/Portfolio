@@ -61,88 +61,54 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Archit',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Gupta',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '22 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Indian',
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: 'Phone : ',
+    description: '+91 9634867048',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
-  },
-
-  {
-    id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
-  },
-
-  {
-    id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'architgupta225@gmail.com',
   },
 
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
-  },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '1.5+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '2',
     title: 'Completed <br /> Projects',
   },
 
-  {
-    id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
-  },
-
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
 ];
 
 export const resume = [
@@ -150,54 +116,44 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
-  },
-
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2022 - PRESENT',
+    title: 'Web Developer <span> Nineleaps </span>',
+    desc: `I am a dedicated professional with a holistic skill set, ensuring successful software projects through user training, code quality, API integration, SDLC management, Agile Scrum, team leadership, and front-end development expertise.<br /><br />
+    -  <span className="bold-text"><strong>Front-end Development:</strong></span> I adeptly refactor ReactJS code for responsive web interfaces, emphasizing HTML, CSS, and JavaScript optimization.<br />
+    -  <span className="bold-text"><strong>Team Leadership:</strong></span>I guide cross-functional teams, promoting collaboration, on-time delivery, and upholding code quality and best practices.<br />
+    -  <span className="bold-text"><strong>Code Quality Assurance:</strong></span> I maintain high code quality through rigorous reviews, adhering to best practices and coding guidelines.<br />
+    -  <span className="bold-text"><strong>API Integration:</strong></span> I seamlessly integrate third-party REST APIs to optimize data exchange and enhance application functionality.<br />
+    -  <span className="bold-text"><strong>SDLC Oversight:</strong></span> With proficiency, I oversee the full SDLC, orchestrating end-to-end workflows to enhance modules and streamline processes.<br />
+    -  <span className="bold-text"><strong>Agile Scrum: </strong></span>I utilize Agile Scrum for adaptive project management and collaborative development.<br />
+    - <span className="bold-text"><strong>User Training: </strong></span>I excel in user training, ensuring clients and end-users effectively use applications.
+ `
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2018-2022',
+    title: 'Bachelor of Technology <span> Graphic Era Hill University </span>',
+    desc: 'I earned a Bachelor of Technology in Computer Science with a 8.3 CGPA.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2017-2018',
+    title: 'Intermediate <span> Beverly Hills School </span>',
+    desc: 'Achieved an 82% score in my intermediate studies.',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2015-2016',
+    title: 'Matriculation <span> Beverly Hills School </span>',
+    desc: 'Obtained a perfect 10 CGPA in my matriculation.',
   },
 ];
 
@@ -205,49 +161,25 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '60',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '76',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
-  },
-
-  {
-    id: 4,
-    title: 'Php',
-    percentage: '66',
-  },
-
-  {
-    id: 5,
-    title: 'Wordpress',
-    percentage: '95',
-  },
-
-  {
-    id: 6,
-    title: 'Jquery',
-    percentage: '50',
-  },
-
-  {
-    id: 7,
-    title: 'Angular',
-    percentage: '65',
+    percentage: '72',
   },
 
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '68',
   },
 ];
 

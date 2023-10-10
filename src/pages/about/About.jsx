@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaDownload } from 'react-icons/fa'
-import CV from "../../assets/steve-Cv.pdf"
+import CV from "../../assets/Archit_Gupta_Resume.pdf"
 import Stats from '../../components/Stats'
 import { personalInfo } from '../../data'
 import './about.css'

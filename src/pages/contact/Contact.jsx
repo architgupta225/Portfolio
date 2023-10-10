@@ -20,9 +20,9 @@ const Contact = () => {
         <div className="contact_data">
           <h3 className="contact__title">Don't be Shy !</h3>
           <p className='contact__description'>
-            sdfvbnlkmnjhdxghuijokiugyfghjklkljhgfvhbjkljhgcfghjkoijhghf
-            sdfvbnlkmnjhdxghuijokiugyfghjklkljhgfvhbjkljhgcfghjkoijhghf
-            sdfvbnlkmnjhdxghuijokiugyfghjklkljhgfvhbjkljhgcfghjkoijhghf
+            Welcome to my portfolio website! I'm thrilled to connect with you.
+            Feel free to reach out via the provided contact information.
+            Let's collaborate on exciting projects!
           </p>
 
           <div className="contact__info">
@@ -38,11 +38,11 @@ const Contact = () => {
             <div className='info__item'>
               <FaPhoneSquareAlt className='info__icon' />
 
-            <div>
-              <span className='info__title'>Call me</span>
-              <h4 className='info__desc'>+91 9634867048</h4>
+              <div>
+                <span className='info__title'>Call me</span>
+                <h4 className='info__desc'>+91 9634867048</h4>
+              </div>
             </div>
-          </div>
           </div>
 
           <div className='contact__details' >
@@ -62,27 +62,31 @@ const Contact = () => {
 
         </div>
 
-        <form className="contact__form">
+        <form action="https://formsubmit.co/architgupta225@gmail.com" className="contact__form" method='POST'>
           <div className="form__input-group">
             <div className="form__input-div">
               <input
                 type="text"
+                name='name'
                 className="form__control"
                 placeholder="Your Name"
+                required
               />
-              
+
             </div>
             <div className="form__input-div">
               <input
                 type="email"
+                name='email'
                 className="form__control"
                 placeholder="Your Email"
+                required
               />
             </div>
           </div>
 
           <div className="form__input-div">
-            <textarea placeholder='Your Message' className='form__control textarea' ></textarea>
+            <textarea placeholder='Your Message' name='message' className='form__control textarea' required></textarea>
           </div>
 
           <button className='button'>

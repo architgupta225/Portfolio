@@ -7,10 +7,21 @@
 
 .home__img {
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 30px;
-  box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+  /* box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3); */
   z-index: 1;
+  animation: moveUpDown 2s infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
 }
 
 .home__data {
@@ -46,12 +57,12 @@
   margin-block: 16px 32px;
 }
 
-.color__block{
-    position: fixed;
-    height: 200%;
-    width: 100%;
-    background-color: var(--first-color);
-    top: -50%;
-    left: -83%;
-    transform: rotate(-15deg);
+.color__block {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  background-color: var(--first-color);
+  top: -50%;
+  left: -83%;
+  transform: rotate(-15deg);
 }
