@@ -14,10 +14,10 @@ const Home = () => {
           <h1 className='home__title'>
             <span>I'm Archit Gupta.</span>
             <br />
-            Web Designer
+            Web Developer
           </h1>
           <p className='home__description'>
-            I'm a dedicated front-end developer with 1.5+ years of ReactJS experience, specializing in HTML, CSS, JavaScript, and seamless REST API integration. I excel in user story grooming, ensuring alignment with requirements, and oversee the full SDLC, from
+            I'm a dedicated front-end developer with 2+ years of ReactJS experience, specializing in HTML, CSS, JavaScript, and seamless REST API integration. I excel in user story grooming, ensuring alignment with requirements, and oversee the full SDLC, from
             ideation to deployment. Proficient in Agile Scrum, I facilitate effective project management, adapting to evolving needs. My skills drive
             successful outcomes.
           </p>
