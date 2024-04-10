@@ -11,7 +11,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
+import Work3 from './assets/project-3.jpg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
@@ -105,7 +105,7 @@ export const stats = [
 
   {
     id: 2,
-    no: '2',
+    no: '3',
     title: 'Completed <br /> Projects',
   },
 
@@ -221,6 +221,28 @@ export const portfolio = [
         icon: <FaCode />,
         title: 'Language : ',
         desc: 'React JS, HTML, CSS',
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: Work3,
+    title: 'Real Estate',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Real estate',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'ReactJs, HTML, TailwindCSS, NodeJs, MongoDB',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://real-estate-marketplace-s0qq.onrender.com/',
       },
     ],
   },
