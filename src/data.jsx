@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '22 Years',
+    description: '24 Years',
   },
 
   {
@@ -99,16 +99,9 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '2+',
+    no: '3+',
     title: 'Years of <br /> Experience',
   },
-
-  {
-    id: 2,
-    no: '3',
-    title: 'Completed <br /> Projects',
-  },
-
 ];
 
 export const resume = [
@@ -118,14 +111,14 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2022 - PRESENT',
     title: 'Web Developer <span> Nineleaps </span>',
-    desc: `I am a dedicated professional with a holistic skill set, ensuring successful software projects through user training, code quality, API integration, SDLC management, Agile Scrum, team leadership, and front-end development expertise.<br /><br />
-    -  <span className="bold-text"><strong>Front-end Development:</strong></span> I adeptly refactor ReactJS code for responsive web interfaces, emphasizing HTML, CSS, and JavaScript optimization.<br />
-    -  <span className="bold-text"><strong>Team Leadership:</strong></span>I guide cross-functional teams, promoting collaboration, on-time delivery, and upholding code quality and best practices.<br />
-    -  <span className="bold-text"><strong>Code Quality Assurance:</strong></span> I maintain high code quality through rigorous reviews, adhering to best practices and coding guidelines.<br />
-    -  <span className="bold-text"><strong>API Integration:</strong></span> I seamlessly integrate third-party REST APIs to optimize data exchange and enhance application functionality.<br />
-    -  <span className="bold-text"><strong>SDLC Oversight:</strong></span> With proficiency, I oversee the full SDLC, orchestrating end-to-end workflows to enhance modules and streamline processes.<br />
-    -  <span className="bold-text"><strong>Agile Scrum: </strong></span>I utilize Agile Scrum for adaptive project management and collaborative development.<br />
-    - <span className="bold-text"><strong>User Training: </strong></span>I excel in user training, ensuring clients and end-users effectively use applications.
+    desc: `I am a results-driven Frontend Developer with 3+ years of experience, delivering high-quality, scalable applications while driving collaboration, Agile practices, and user adoption.<br /><br />
+          - <span className="bold-text"><strong>Front-end Development:</strong></span> I build and optimize responsive ReactJS applications, refactoring code for maintainability and performance with HTML, CSS, JavaScript, and TypeScript.<br />
+          - <span className="bold-text"><strong>Team Leadership:</strong></span> I lead and mentor cross-functional teams, ensuring 100% sprint success, on-time delivery, and adherence to best engineering practices.<br />
+          - <span className="bold-text"><strong>Code Quality Assurance:</strong></span> I uphold rigorous standards with peer reviews and testing, reducing defect leakage by 25% and ensuring robust, production-ready code.<br />
+          - <span className="bold-text"><strong>API Integration:</strong></span> I integrate third-party REST APIs seamlessly, enhancing data exchange, streamlining workflows, and elevating user experiences.<br />
+          - <span className="bold-text"><strong>SDLC Oversight:</strong></span> I oversee end-to-end SDLC, orchestrating workflows from design to deployment, ensuring efficiency and continuous improvement.<br />
+          - <span className="bold-text"><strong>Agile Scrum:</strong></span> I apply Agile Scrum practices to deliver iterative, adaptive project management, achieving faster release cycles and higher productivity.<br />
+          - <span className="bold-text"><strong>User Training:</strong></span> I conduct user training and create documentation, enabling clients and end-users to effectively adopt and leverage applications.<br />
  `
   },
 
